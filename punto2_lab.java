@@ -124,7 +124,7 @@ class Main{
         System.out.println("El nodo tiene: "+ ruta.size()+ " rutas");
         if(ruta.size()!=0){ // si tiene rutas>0
             System.out.println("");
-            System.out.println("La ruta con más infleuncia tiene: "+ruta.get(ruta.size()-1)+" personas");
+            System.out.println("La ruta con más influencia tiene: "+ruta.get(ruta.size()-1)+" personas");
         }else{ //tiene 0 rutas 
             System.out.println("El vendedor tiene 0 rutas, por ende, no hay rutas influyentes");
         }
